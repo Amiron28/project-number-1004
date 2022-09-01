@@ -8,3 +8,16 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* header { */
+
+/* } */
+
+.leftSideOfHeader p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
