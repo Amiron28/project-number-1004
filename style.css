@@ -8,11 +8,13 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 header {
     display: flex;
     align-items: center;
     padding: 30px 80px 30px 80px;
     justify-content: space-between;
+    background-color: #c4c4c4c4;
 }
 
 .leftSideOfHeader {
