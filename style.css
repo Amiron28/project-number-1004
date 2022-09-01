@@ -8,9 +8,17 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* header { */
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 80px 30px 80px;
+    justify-content: space-between;
+}
 
-/* } */
+.leftSideOfHeader {
+    display: flex;
+    gap: 18px;
+}
 
 .leftSideOfHeader p {
     font-style: normal;
