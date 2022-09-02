@@ -31,3 +31,9 @@ header {
     text-transform: uppercase;
     color: #000000;
 }
+
+.previev {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
