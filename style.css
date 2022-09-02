@@ -111,6 +111,7 @@ header {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    margin: 0 0 130px 0;
 }
 
 .desk-pads, .laptop-stands {
@@ -132,4 +133,32 @@ header {
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #000000;
+}
+
+.featuredProducts {
+    background-color: red;
+}
+
+.featuredProducts p:nth-child(1) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 16px 0;
+}
+
+.featuredProducts p:nth-child(2) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+}
+
+.widget {
+    
 }
