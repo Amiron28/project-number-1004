@@ -36,10 +36,45 @@ header {
     width: 100%;
     height: 550px;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(./img/Rectangle.png);
     background-size: 100% 100%;
     object-fit: cover;
     background-repeat: no-repeat;
+}
+
+.previev p:nth-child(1) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.previev p:nth-child(2) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 12px 0 28px 0;
+}
+
+.previev p:nth-child(3) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .design-inspires {
