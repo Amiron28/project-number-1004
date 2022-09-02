@@ -135,10 +135,6 @@ header {
     color: #000000;
 }
 
-.featuredProducts {
-    background-color: red;
-}
-
 .featuredProducts p:nth-child(1) {
     font-style: normal;
     font-weight: 400;
@@ -177,5 +173,27 @@ header {
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
-    background-color: royalblue;
+}
+
+.product {
+    box-shadow: 0 0 10px 6px #c4c4c4c4;
+}
+
+.nameOfProduct {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+}
+
+.priceOfProduct {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+    text-align: center;
 }
