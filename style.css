@@ -159,6 +159,17 @@ header {
     color: #A0A0A0;
 }
 
+.removing {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 52px 0 24px 0;
+    background-color: yellow;
+}
+
 .widget {
-    
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border: 1px solid grey;
 }
