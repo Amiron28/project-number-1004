@@ -163,8 +163,7 @@ header {
     display: flex;
     gap: 40px;
     justify-content: center;
-    margin: 52px 0 24px 0;
-    background-color: yellow;
+    margin-top: 52px;
 }
 
 .widget {
@@ -172,4 +171,11 @@ header {
     height: 7px;
     background-color: black;
     border: 1px solid grey;
+}
+
+.products {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: royalblue;
 }
