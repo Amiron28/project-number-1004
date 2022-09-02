@@ -34,6 +34,12 @@ header {
 
 .previev {
     width: 100%;
-    height: 400px;
+    height: 550px;
     background-color: red;
+}
+
+.previev img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
